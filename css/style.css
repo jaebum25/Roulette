@@ -24,6 +24,7 @@ h1 {
     font-size: 200px;
     text-align: center;
     color: white;
+    border-radius: 100%;
 
 }
 
@@ -32,11 +33,26 @@ h1 {
     margin: auto;
 }
 
-#betlog, #betbank, #betamt {
+#betlog {
     display: flex;
     height: 25px;
     width: 225px;
+    background-color: lightgray;
+    margin: auto;
+}
+
+#betinfo {
+    display: flex;
     background-color: mediumslateblue;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+
+#betchips {
+    display: flex;
+    background-color: mediumslateblue;
+    justify-content: space-evenly;
 }
 
 .cell {
@@ -65,3 +81,12 @@ h1 {
     background-color: green;
 }
 
+.chips {
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    font-size: 25%;
+    margin: auto;
+    padding: 0px;
+    background-color: aquamarine;
+}
