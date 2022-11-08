@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+}
+
+.gamecontainer {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    justify-content: center;
+}
+
+#betscreen, #betboard {
+    display: grid;
+    border: 1px solid blue;
+    background-color: khaki;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+#wheel {
+    height: 225px;
+    width: 225px;
+    background-color: mediumslateblue;
+    font-size: 200px;
+    text-align: center;
+    color: white;
+
+}
+
+#spin {
+    width: 50px;
+    margin: auto;
+}
+
+#betlog, #betbank, #betamt {
+    display: flex;
+    height: 25px;
+    width: 225px;
+    background-color: mediumslateblue;
+}
+
+.cell {
+    height: 75px;
+    width: 75px;
+    border: 1px solid white;
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.row {
+    display: flex;
+}
+
+.red {
+    background-color: red;
+}
+
+.black {
+    background-color: black;
+}
+
+.green {
+    background-color: green;
+}
+

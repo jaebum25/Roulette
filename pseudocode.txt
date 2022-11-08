@@ -1,0 +1,23 @@
+1. User selects bet amount
+    a) addEventListener on bet amount options
+    b) highlight the option selected
+
+2. User places $bet across the board
+    a) Figure out how to hold chip value on each option
+    b) each option will have a mulitplier value
+
+3. User clicks button
+    a) addEventListener on a button element
+    a) randomly generate a number between 0 and 36 (inclusive)
+    c) show user what the winning number is
+
+4. Compare outcome of spin and update bank roll
+    a) if user selection wins, add to bank balance
+    b) else balance = balance
+
+5. Reset
+    a) clear table after each roll
+
+BONUS:
+how to create a spinning wheel?
+Optional bets (black/red) (even/odd) (thirds) 0?
