@@ -4,9 +4,8 @@ const winMultiplier = [12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 0, 12, 4,
 /*----- app's state (variables) -----*/
 
 let spinHistory = [];
-let winNum = 0;
+let winNum = 0
 let wager = 0;
-let betamtEl = 0;
 let bankBal = 100;
 let chipVal = 0
 let totalWinSum = 0
@@ -17,25 +16,18 @@ let winner = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 /*----- cached element references -----*/
 
-const cellsEls = document.querySelectorAll(".cell");
-const spinBtn = document.querySelector("#spin");
-const betlogEl = document.getElementById("betlog");
-const wheelEl = document.getElementById("wheel");
-const betAmtEl = document.getElementById("betamt");
-const betBalEl = document.getElementById("betbal");
-const betchipsEl = document.querySelectorAll(".betchips");
-let chip5El = document.getElementById("chip5");
-let chip10El = document.getElementById("chip10");
-let chip25El = document.getElementById("chip25");
-let chip50El = document.getElementById("chip50");
-let chip100El = document.getElementById("chip100");
+let cellsEls = document.querySelectorAll(".cell");
+let spinBtn = document.querySelector("#spin");
+let betlogEl = document.getElementById("betlog");
+let wheelEl = document.getElementById("wheel");
+let betAmtEl = document.getElementById("betamt");
+let betBalEl = document.getElementById("betbal");
+let winAlertEl = document.querySelector(".win-alert")
 
 /*----- event listeners -----*/
 
 spinBtn.addEventListener("click", handleSpin);
 
-
-// cellsEls.addEventListener('click', handleBet)
 
 /*----- functions -----*/
 
@@ -103,10 +95,13 @@ function calcWinnings() {
   let totalWinSum = 0
   // this takes the new 1 array product, and sums each element to 1 value
   for (i = 0; i < totalWinArray.length; i++) {
-    totalWinSum = totalWinArray[i];
-    bankBal = bankBal + totalWinSum
-    betBalEl.innerText = `BAL $${bankBal}`;
+    totalWinSum += totalWinArray[i];
   }
+  winAlertEl.textContent = `Wins ${totalWinSum}` 
+  console.log(totalWinSum)
+  console.log(totalWinArray)
+  bankBal = bankBal + totalWinSum
+  betBalEl.innerText = `BAL $${bankBal}`;
   // this would be the total $ you won based on bet x winning number x win multipliers
   //informational console log
   console.log(`total winnings: ${totalWinSum}`);
@@ -114,7 +109,6 @@ function calcWinnings() {
 
 // This is good and complete
 function resetWinner() {
-  // winner[winNum] = 0
   winner = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 }
 
