@@ -9,9 +9,7 @@ let wager = 0;
 let bankBal = 100;
 let chipVal = 0
 let totalWinSum = 0
-// this will change depending on what is bet
 let board = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-// This will assign a value of 1 to the number and 1 to the color
 let winner = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 /*----- cached element references -----*/
@@ -97,7 +95,13 @@ function calcWinnings() {
   for (i = 0; i < totalWinArray.length; i++) {
     totalWinSum += totalWinArray[i];
   }
-  winAlertEl.textContent = `Wins ${totalWinSum}` 
+  if (totalWinSum > 0) {
+    winAlertEl.textContent = `Here's a treat! $${totalWinSum}`
+    winAlertEl.style.color = "#1dff00"
+  } else {
+    winAlertEl.textContent = `Tricked ya! haha :P`
+    winAlertEl.style.color = "rgb(233, 0, 0)"
+  }
   console.log(totalWinSum)
   console.log(totalWinArray)
   bankBal = bankBal + totalWinSum
