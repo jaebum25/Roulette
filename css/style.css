@@ -12,7 +12,7 @@ h2 {
 h3 {
     text-align: center;
     color: black;
-    width: 304px;
+    width: 420px;
     font-size: 20px;
     margin: 15px auto;
     background-color: rgba(246, 243, 243, 0.3);
@@ -52,7 +52,7 @@ h1 {
     background-color: #1dff00;
     font-size: 200px;
     text-align: center;
-    color: white;
+    color: black;
     border-radius: 100%;
 
 }
