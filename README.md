@@ -1,16 +1,16 @@
 # Title: Ghoulette
-Current Patch: v1 (11.11.22)
-Previous Patch: N/A
-Creator: Brian Lee
-Initial date: 11.7.22
+##### Current Patch: v1 (11.11.22)
+##### Previous Patch: N/A
+##### Creator: Brian Lee
+##### Initial date: 11.7.22
 
-#### Ready to play? (https://jaebum25.github.io/Roulette/)
+#### Ready to play? https://jaebum25.github.io/Roulette/
 
 ## Patch v1 Notes
 
-This is the initial launch of Ghoulette. With respect to this launch date 11.11.22 - let's take a moment to remember and thank those who made a sacrifice for our freedom. Thanks for reading and I hope to see you back for the next patch.
+This is the initial launch of Ghoulette. With respect to this launch date 11.11.22 - let's take a moment to remember and thank those who made a sacrifice for our freedom. Thanks for reading and see you for the next patch.
 
-## Background Info:
+## Background info:
 
 This is a project I started for a Software Engineering bootcamp @GeneralAssembly.
 Ghoulette is a spinoff of the popular casino game 'Roulette'.
