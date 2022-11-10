@@ -1,5 +1,5 @@
 /*----- constants -----*/
-const winMultiplier = [12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 2, 12, 2,];
+const winMultiplier = [12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 0, 12, 4,];
 
 /*----- app's state (variables) -----*/
 
@@ -46,9 +46,10 @@ function handleSpin() {
   winNum = spinWheel();
   logSpinHistory();
   if (winNum === 0) {
-    wheelEl.style.backgroundColor = "green";
+    wheelEl.style.backgroundColor = "#1dff00";
   } else {
-    wheelEl.style.backgroundColor = winNum % 2 !== 1 ? "black" : "red";
+    wheelEl.style.backgroundColor = winNum % 2 !== 1 ? "black" : "#ff6c00";
+    wheelEl.style.color = winNum % 2 !== 1 ? "#ff6c00" : "black";
   }
   // sets wager text to $0 after each click
   betAmtEl.innerText = `BET $${0}`;
@@ -67,7 +68,7 @@ function logSpinHistory() {
   wheelEl.innerText = winNum;
   spinHistory.unshift(winNum);
   console.log(winNum);
-  betlogEl.innerText = spinHistory.slice(0, 15);
+  betlogEl.innerText = spinHistory.slice(0, 12);
 }
 
 // This is good and complete

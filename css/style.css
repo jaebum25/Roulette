@@ -1,26 +1,53 @@
+body {
+    background-color: black;
+}
+
+h6 {
+    text-align: center;
+    color: red;
+}
+
+p {
+    text-align: center;
+    font-size: 10px;
+    width: 304px;
+    margin: 31px auto;
+    color: red;
+}
+
 h1 {
     text-align: center;
+    color: red;
+    font-size: 48px;
 }
 
 .gamecontainer {
     display: flex;
     grid-template-columns: 1fr 1fr;
-    gap: 5px;
     justify-content: center;
+}
+
+.betCalc {
+    display: grid;
+    background-color: #9700f8;
+    padding: 15px 20px;
+    align-items: center;
+    color: black;
+    border: 5px solid blue;
 }
 
 #betscreen, #betboard {
     display: grid;
-    border: 1px solid blue;
-    background-color: khaki;
-    padding: 10px 20px;
+    background-color: #9700f8;
+    padding: 15px 20px;
     align-items: center;
+    color: black;
 }
 
 #wheel {
     height: 225px;
     width: 225px;
-    background-color: mediumslateblue;
+    background-color: #1dff00;
     font-size: 200px;
     text-align: center;
     color: white;
@@ -29,29 +56,31 @@ h1 {
 }
 
 #spin {
-    width: 50px;
+    width: 100px;
     margin: auto;
+    background-color: yellow;
 }
 
 #betlog {
     display: flex;
     height: 25px;
     width: 225px;
-    background-color: lightgray;
     margin: auto;
+    background-color: rgb(0,0,0,0.25);
 }
 
 #betinfo {
     display: flex;
-    background-color: mediumslateblue;
+    /* background-color: #1dff00; */
     justify-content: space-between;
     padding: 0px 10px;
+    color: black;
+    background-color: rgb(0,0,0,0.25);
 }
 
 
 #betchips {
     display: flex;
-    background-color: mediumslateblue;
     justify-content: space-evenly;
 }
 
@@ -69,16 +98,19 @@ h1 {
     display: flex;
 }
 
-.red {
-    background-color: red;
+.orange {
+    background-color: #ff6c00;
+    color: black;
 }
 
 .black {
     background-color: black;
+    color: #ff6c00;
 }
 
 .green {
-    background-color: green;
+    background-color: #1dff00;
+    color: #9700f8;
 }
 
 .chips {
@@ -88,5 +120,10 @@ h1 {
     font-size: 25%;
     margin: auto;
     padding: 0px;
-    background-color: aquamarine;
+    background-color: yellow;
+}
+
+.win2 {
+    font-size: 36px;
+    color: red;
 }
