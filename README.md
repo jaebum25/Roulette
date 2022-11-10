@@ -1,8 +1,5 @@
-# Title: Ghoulette
-##### Current Patch: v1 (11.11.22)
-##### Previous Patch: N/A
-##### Creator: Brian Lee
-##### Initial date: 11.7.22
+# Title: Ghoulettec
+Creator: Brian Lee
 
 #### Ready to play? https://jaebum25.github.io/Roulette/
 
