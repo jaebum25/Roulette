@@ -20,4 +20,4 @@
 
 BONUS:
 how to create a spinning wheel?
-Optional bets (black/red) (even/odd) (thirds) 0?
+Optional bets (black/red) (even/odd) (thirds) 0

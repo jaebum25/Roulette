@@ -1,7 +1,5 @@
 /*----- constants -----*/
-const winMultiplier = [
-  12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 0, 12, 4,
-];
+const winMultiplier = [12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 0, 12, 4,];
 
 /*----- app's state (variables) -----*/
 
