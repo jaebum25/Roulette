@@ -63,6 +63,6 @@ Javascript, HTML, CSS
 1. https://www.merriam-webster.com/dictionary/ghoul#:~:text=%CB%88g%C3%BCl,things%20considered%20shocking%20or%20repulsive
 2. Saw II (2005): John Kramer/Jigsaw/Billy The Puppet
 3. Tokyo Ghoul: Ishida Sui
-4. Macbeth Act 1, Scene 1): Shakespeare
+4. Macbeth (Act 1, Scene 1): Shakespeare
 5. Batman Forever (1995): Jim Carrey/The Riddler
 6. Rememberance Day Poem
