@@ -25,13 +25,15 @@ I've added quotes on the background as decoration. These are inspired from anyth
 4. If the number and/or color matches where you have placed your bet, you win. if not, the house keeps the bets that did not match with the winning number/color.
 5. The game stops when your balance hits $0. From there you can send me an e-transfer or simply refresh the page to start again at the default $100.
 
+<img src="Screen Shot 2022-11-11 at 8.51.08 AM.png" width="400">
+
+
+
 ### Odds Payout Chart:
 
 - match any number: 11:1
 - orange (treat): 3:1
 - black (trick): 0
-
-
 
 ## Icebox items:
 
