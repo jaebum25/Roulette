@@ -1,4 +1,4 @@
-# Title: Ghoulettec
+# Title: Ghoulette
 Creator: Brian Lee
 
 #### Ready to play? https://jaebum25.github.io/Roulette/
